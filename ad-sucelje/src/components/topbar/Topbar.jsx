@@ -12,16 +12,16 @@ const Topbar = () => {
         <div className="topRight">
           <div className="topbarIconContainer">
             <NotificationsActiveOutlined />
-            <span className="topIconButton">7</span>
+            <span className="topIconShield">7</span>
           </div>
           <div className="topbarIconContainer">
             <RecordVoiceOverOutlined />
-            <span className="topIconButton">7</span>
+            <span className="topIconShield">3</span>
           </div>
           <div className="topbarIconContainer">
             <SettingsApplicationsOutlined />
-            <span className="topIconButton">7</span>
           </div>
+          <img src="" alt="" className="profilePicture" />
         </div> 
       </div>
     </div>

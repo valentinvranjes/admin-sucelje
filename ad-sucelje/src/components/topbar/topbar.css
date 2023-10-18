@@ -23,7 +23,7 @@
     position: relative;
 }
 
-.topIconButton {
+.topIconShield {
     width: 15px;
     height: 15px;
     position: absolute;
@@ -37,4 +37,16 @@
     justify-content: center;
     font-size: 15px;
     font-weight: bold;
+}
+
+.topRight {
+    display: flex;
+    align-items: center;
+}
+
+.topbarIconContainer {
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    color: grey;
 }

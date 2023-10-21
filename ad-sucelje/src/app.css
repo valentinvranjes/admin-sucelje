@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.privremeno {
+    flex: 5;
+    background-color: bisque;
+}
+

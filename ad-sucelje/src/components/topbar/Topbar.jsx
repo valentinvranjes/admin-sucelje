@@ -1,6 +1,7 @@
 import React from "react";
 import "./topbar.css";
 import { NotificationsActiveOutlined, RecordVoiceOverOutlined, SettingsApplicationsOutlined } from "@mui/icons-material";
+import PROFILE from '../../assets/img/ProfilePicture.png';
 
 const Topbar = () => {
   return (
@@ -21,7 +22,9 @@ const Topbar = () => {
           <div className="topbarIconContainer">
             <SettingsApplicationsOutlined />
           </div>
-          <img src="" alt="" className="profilePicture" />
+          <div className="profilePicture">
+          <img src={ PROFILE } alt="Profile Picture" />
+          </div>
         </div> 
       </div>
     </div>

@@ -1,8 +1,10 @@
 import React from "react";
 import Topbar from "./components/topbar/Topbar";
-import "./style.css";
 import Sidebar from "./components/sidebar/Sidebar";
+import "./style.css";
 import "./app.css";
+import Home from "./pages/home/Home";
+
 
 function App() {
   return (
@@ -10,7 +12,7 @@ function App() {
       <Topbar />
       <div className="container">
         <Sidebar />
-        <div className="privremeno">Ostale stranice - privremeno</div>
+        <Home />
       </div>
     </div>
   );
